@@ -1,0 +1,13 @@
+{
+  "name": "on-the-fly-image-resize-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "sls deploy --verbose"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.504.0",
+    "sharp": "^0.33.2"
+  }
+}

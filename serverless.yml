@@ -1,0 +1,10 @@
+service: resize-image
+
+provider:
+  name: aws
+  architecture: x86_64
+  runtime: nodejs18.x
+
+functions:
+  cfLambda:
+    handler: index.handler
